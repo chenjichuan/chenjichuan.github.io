@@ -67,6 +67,12 @@
         font-size: 14px;
         font-weight: 700;
     }
+    #item-4 .thumbnail p{
+        font-size: 13px;
+    }
+    #item-4 .thumbnail .img-circle{
+        width: 70%;
+    }
 }
 
 .sky {

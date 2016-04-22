@@ -13,16 +13,6 @@ $(function () {
     document.onmousemove = null;
   }
 
-  // $('#container-img').imagesLoaded(function () {
-  //   $that = $(this);
-  //   setTimeout(function () {
-  //     $that.isotope({
-  //       itemSelector : '.item-img',
-  //       layoutMode : 'fitRows'
-  //     });
-  //   },700);
-  //
-  // })
 
   var $container = $('.portfolio-items');
   setTimeout(function () {
@@ -36,7 +26,7 @@ $(function () {
     });
   },1000)
 
-
+  project_info();
 
 
 
@@ -187,10 +177,9 @@ $(function () {
 
     // 水平滑块回调
       onSlideLeave: function (anchorLink,index,slideIndex,direction) {
-          if(slideIndex==0&&direction=='right'){
-            $('.rotator').show();
+          // if(slideIndex==0){
             project_info();
-          }
+          // }
       },
 
       // 水平滑块回调

@@ -38,8 +38,8 @@
 
 .item-2  .icon-infomation:nth-child(4){
     opacity: 0;
-    -webkit-animation: flipInX 2s ease forwards;
-    animation: flipInX 2s ease forwards;
+    -webkit-animation: bounceInUp 2s ease forwards;
+    animation: bounceInUp 2s ease forwards;
     -webkit-animation-delay:2s;
 }
 /*.item-2 .page2-title.rotateOutUpLeft {*/

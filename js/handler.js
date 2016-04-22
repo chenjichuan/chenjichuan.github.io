@@ -51,7 +51,7 @@ var project_info  = function () {
             $(this).remove();
           });
         }
-      ).attr('src', 'images/' + info_elem.find('.info_image').html()).attr('width', '800').attr('height', '300')
+      ).attr('src', 'images/' + info_elem.find('.info_image').html()).attr('width', '100%').attr('height', '300')
     );
   }
 
