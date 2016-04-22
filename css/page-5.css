@@ -104,12 +104,14 @@
 @media(max-width:768px){
     .rotator{
         width: 150%;
-        /*height: 100%;*/
-
         margin: 0 auto;
         left: -50%;
         margin-left:100px;
         transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+    }
+     .item-5 .rotator .description {
+        width:300px;
     }
 }
 img.bg{
